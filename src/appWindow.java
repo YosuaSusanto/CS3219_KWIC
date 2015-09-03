@@ -108,8 +108,8 @@ public class appWindow {
 		btnAdt.setText("ADT");
 
 		final Button btnPipeFilter = new Button(grpInput, SWT.RADIO);
-		btnPipeFilter.setBounds(172, 79, 90, 16);
-		btnPipeFilter.setText("Pipe & Filter");
+		btnPipeFilter.setBounds(172, 79, 100, 16);
+		btnPipeFilter.setText("Pipe and Filter");
 		
 		Group grpOutput = new Group(shell, SWT.NONE);
 		grpOutput.setText("Output");
